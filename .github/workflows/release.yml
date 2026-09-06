@@ -32,10 +32,12 @@ jobs:
       sln-file-name: Digitalroot.Valheim.ChainManager
       proj-file-name: Digitalroot.Valheim.ChainManager
       is-nuget-package: false
+      skip-unit-tests: true
       nexus-enable-upload: true
       nexus-mod-id: 2605
+      nexus-mod-file-id: 2517739
       ts-enable-upload: true
       ts-name: Chain_Manager
       ts-description: "Adds a craftable chain to Valheim."
       ts-categories: Client-side Crafting
-      ts-dependencies: ValheimModding-Jotunn-2.20.0
+      ts-dependencies: ValheimModding-Jotunn-2.29.2
